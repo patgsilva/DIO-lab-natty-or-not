@@ -1,51 +1,20 @@
 # Natural ou Fake Natty? Como Vencer na Era das IAs Generativas
 
-## 🚀 Introdução
+## Descrição
+Projeto desenvolvido para o bootcamp "CAIXA - IA Generativa com Microsoft Copilot". Neste projeto, o desafio proposto é criar um entregável utilizando ferramentas de IA generativa, realista o suficiente para nos perguntarmos: é real ou fake?
 
-> Woooow! Look at this 👀
+## Tecnologias utilizadas
+Para este projeto, foi utilizado o app Captions que, dentre outras coisas, cria um avatar a partir de um vídeo original.
 
-Olá pessoal, Venilton da DIO aqui! Inspirado na hype _"Natty or Not"_ do fisiculturismo, este Lab da DIO te convida a conhecer o mundo das IAs Generativas, explorando o potencial dessas tendências tecnológicas incríveis!
-
-## 🎯 Bora Pro Desafio!? Você Já Venceu 💪🤓
-
-### Objetivos
-
-1. **Explorar IAs Generativas**: Utilize essas tecnologias para criar conteúdos que sejam o mais realista possível. Seja criativo! Você pode produzir imagens, textos, áudios, vídeos ou combinações de tudo isso!
-1. **Potfólio de Projetos**:
-    1. Faça o "fork" deste repositório, criando uma cópia em seu GitHub pessoal;
-    2. Edite seu README com os detalhes do seu projeto, siga nosso [Template](#template) (é só copiar, colar e preencher);
-    3. Submeta o link do seu repositório na plataforma da DIO. Pronto, você acabou de fortalecer seu portfólio de projetos nos perfis do GitHub e DIO 🚀
-1. **Efeito de Rede**: Compartilhe seus resultados nas redes sociais com a hashtag **#LabDIONattyOrNot**. Não esqueça de nos marcar: [DIO](https://www.linkedin.com/school/dio-makethechange) e [falvojr](https://www.linkedin.com/in/falvojr).
-
-### Template
+### Processo de criação
 
 ```markdown
-# Título do Projeto Extremamente Aesthetic ;)
-
-## 📒 Descrição
-Breve descrição do seu projeto
-
-## 🤖 Tecnologias Utilizadas
-Liste as IAs Generativas e outras ferramentas usadas
-
-## 🧐 Processo de Criação
-Descreva como você criou o conteúdo
-
-## 🚀 Resultados
-Apresente os resultados do seu projeto
-
-## 💭 Reflexão (Opcional)
-Comente sobre o desafio de criar algo 'natty' com IA.
+1. **Seleção do vídeo original**: Foi utilizado um vídeo do atual ministro da Fazenda, Fernando Haddad, discursando nas redes sociais sobre a atcrescente onda de fake news a respeito da cobrança de imposto sobre transferências bancárias usando o PIX.
+1. **Processamento no app Captions**:
+    1. Do vídeo original, usou-se apenas a sua segunda parte, onde o enquadramento do vídeo na pessoa permanece fixo.
+    2. O trecho de vídeo, de cerca de 35 segundos, foi duplicado e concatenado (são necessários pelo menos 60 segundos de gravação para o treinamento da ferramenta)
+    3. Após a geração do avatar, é criado o texto que será lido pelo avatar. Usou-se um texto sobre mindfulness, de um prompt sugerido pelo próprio app Captions. 
 ```
 
-### Exemplos e Insigths
-
-- [E-BOOK](/exemplos/E-BOOK.md)
-- [Podcast](/exemplos/PODCAST.md)
-- [Vídeo (Avatar Virtual)](/exemplos/VIDEO.md)
-
-## Links Interessantes
-
-[Base10: If You’re Not First, You’re Last: How AI Becomes Mission Critical](https://base10.vc/post/generative-ai-mission-critical/)
-
-![Base10's Trend Map Generative AI](https://github.com/digitalinnovationone/lab-natty-or-not/assets/730492/f4df26e8-f8f7-4419-8252-c69d73ea930c)
+## Resultados
+O resultado está salvo na pasta Entrega, com o nome Video_final.mov; foi feito também o upload do vídeo que foi usado para treinamento da IA.
